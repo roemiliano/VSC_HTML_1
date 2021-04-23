@@ -37,8 +37,11 @@ h1{
 .publish .botonera{
     color: #025157;
     margin-bottom: 18px;
-}
 
+}
+.publish .botonera p{
+    margin-top: 15px;
+}
 
 h4{
     color: #46484c;
@@ -108,11 +111,13 @@ button{
     margin: 30px 0;
 
 }
+.main form input{
+    height: 25px;
+}
 input{
     border: 1px solid #b6b6b6;
-    padding: 6px 20px;
-    width: 60%;
-    max-width: 250px;
+    padding: 0px 20px;
+   
 }
 input, button{
     height: 100%;
@@ -142,3 +147,93 @@ input, button{
     right: 0;
     background-color: #fffbf7;
 }
+.features{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr) ;
+    height: 660px;
+    background-color: #025157;
+    padding: 5% 10%;
+    
+}
+.fixed-header .header .actions a{
+    margin-right: 20px;   
+    
+
+}
+.features > *{
+    
+    
+
+}
+.features .feature-card{
+    background-color: #fff;
+    margin: 0 15px 30px;
+    border: ipx solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+    
+
+
+}
+.features .feature-card .feature-image {
+    flex: 1;
+    position: relative;
+    width: 40%;
+    right: -50px;
+    height: 80%;
+    transition: right 1s;
+
+
+}
+.features .feature-card .feature-image:hover{
+    right: 0px;
+
+}
+.features .feature-card .feature-content > *{
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.features .feature-card .feature-content img{
+    width: 50px;
+
+    
+}
+.features .feature-card .feature-content figure{
+    margin-left: 0;
+    
+    
+}
+.features .feature-card .feature-content a{
+    font-size: 1rem;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+
+
+    
+}
+.features .feature-card .feature-content h3{
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+.features .feature-card .feature-content p{
+    font: 1rem;  
+    color: #7e7e7e;
+    font-weight: 400;
+}
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image img{
+
+    margin-top: 0;
+    height: 100%;
+}
+
+
